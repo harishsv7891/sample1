@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var a,b,sum=0;
+            a=window.prompt("Enter a number ");
+            a=parseInt(a);
+            for(i=1;i<=a/2;i++){
+                if(a%i==0){
+                    sum=sum+i;
+                }
+            }
+            if(a==sum){
+                document.write("<h1>"+"the given number is perfect number: "+a+"</h1>");
+            }
+            else{
+                document.write("<h2>"+"the given number is not a perfect number: "+a+"</h2");
+            }
+
+        </script>
+    </head>
+</html>
